@@ -6,7 +6,7 @@
 
 Пример использования функции:
 
-   if (flag_pid & !sensor_Err & !stop_PID)      
+   if (flag_pid)      // вызов 1 раз в секунду
      { 
              
          PV_IN = temperature;                  // передаем температуру регулятору
